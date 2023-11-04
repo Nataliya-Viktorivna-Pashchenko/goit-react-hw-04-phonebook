@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { nanoid } from 'nanoid';
 import css from "./Styles.module.css"
 
-export const ContactForm =({onSubmit}) => {
+const ContactForm = ({onSubmit}) => {
 
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
@@ -81,4 +81,5 @@ export const ContactForm =({onSubmit}) => {
   // }
 }
 
+export default ContactForm;
 
