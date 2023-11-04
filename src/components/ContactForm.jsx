@@ -19,7 +19,10 @@ const ContactForm = ({onSubmit}) => {
       case 'number': {
         setNumber(value);
         return;
-} 
+      } 
+        default:
+        return;
+    }
     }
    
   };
