@@ -81,8 +81,6 @@ const ContactForm = ({onSubmit}) => {
         </button>
       </form>
     );
-  // }
-}
-
+  
 export default ContactForm;
 
