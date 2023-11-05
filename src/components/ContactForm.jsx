@@ -25,7 +25,7 @@ const ContactForm = ({onSubmit}) => {
     }
     }
    
-  };
+  
 
   const onFormSubmit = event => {
     event.preventDefault();
@@ -81,6 +81,6 @@ const ContactForm = ({onSubmit}) => {
         </button>
       </form>
     );
-  
+  };
 export default ContactForm;
 
